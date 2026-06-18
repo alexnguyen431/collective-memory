@@ -50,7 +50,7 @@ Your prototype is live at `https://your-project.vercel.app`
 - **Rate limiting** — 10 requests/minute per IP in the serverless function
 - **Input caps** — 500 char message limit, 12 message history window
 - **Session limit** — 50 API calls per browser session
-- **Model locked** — server enforces `claude-sonnet-4-20250514` regardless of client input
+- **Model locked** — server enforces `claude-sonnet-4-6` regardless of client input
 - **Output capped** — `max_tokens: 1000` enforced server-side
 
 ## Cost Estimate

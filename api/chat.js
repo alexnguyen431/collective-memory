@@ -55,7 +55,7 @@ export default async function handler(req, res) {
 
     // Security: enforce limits regardless of what client sends
     const sanitized = {
-      model: 'claude-sonnet-4-20250514', // Lock model
+      model: 'claude-sonnet-4-6', // Lock model
       max_tokens: 1000, // Lock max output
       system: typeof body.system === 'string' ? body.system.slice(0, 4000) : '', // Cap system prompt
       messages: Array.isArray(body.messages)
